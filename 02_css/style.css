@@ -1,0 +1,64 @@
+.moja_klasa {
+    text-align: right;
+}
+
+.klasa {
+    color: purple;
+
+}
+
+#p1 {
+    color: brown;
+}
+/*
+div p {
+    font-size: 30px;
+}
+
+div>p {
+    font-size: 30px;
+}
+
+div+p {
+    font-size: 30px;
+}
+*/
+div~p {
+    font-size: 30px;
+}
+
+
+a:visited {
+    color: red;
+}
+a:link {
+    color: violet;
+}
+a:hover {
+    background-color: #39F80A;
+}
+a:active {
+    font-size: 24px;
+}
+a::before {
+content: "Ovo je link: ";
+}
+#p1::first-letter {
+font-size: 30px;
+}
+/*
+p:first-child {
+border: 5px dotted silver;
+}
+/* 
+p:first-of-type {
+    border: 5px dotted silver;
+} */
+/*
+p:nth-of-type(2) {
+    border: 5px dotted silver;
+}
+*/
+li:nth-child(3) {
+    color: red;
+}
