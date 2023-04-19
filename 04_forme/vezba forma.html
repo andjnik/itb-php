@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="test.php" method="get">
+        <fieldset>
+            <legend>Form Validation</legend>
+            <p>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+            </p>
+            <p>
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username">
+            </p>
+            <p>
+                <label for="pass">Password: </label>
+                <input type="password" name="pass" id="pass">
+                <input type="hidden" name="hidden" id="hidden">
+            </p>
+            <p>
+                <label for="pass">Re-type password: </label>
+                <input type="password" name="repass" id="repass">
+                <input type="hidden" name="hidden" id="hidden">
+            </p>
+            <p>
+                <label for="gender">Gender: </label>
+                <input type="radio" name="gender" value="male" id="male"> Male
+                <input type="radio" name="gender" value="female" id="female"> Female
+                <input type="radio" name="gender" value="other" id="other"> Other
+            </p>
+            <p>
+                <label for="skills">Programming skills: </label>
+                <input type="checkbox" name="java" id="java" value="true"> Java
+                <input type="checkbox" name="android" id="android" value="true"> Android
+                <input type="checkbox" name="ruby" id="ruby" value="true"> Ruby
+                <input type="checkbox" name="net" id="net" value="true"> .Net
+            </p>
+            <p>
+                <label for="contact">Contact no: </label>
+                <input type="number" name="num" id="num" maxlength="10">
+            </p>
+            <p>
+                <label for="em">Email: </label>
+                <input type="email" name="em" id="em">
+            </p>
+            <p>
+                <label for="college">College: </label>
+                <select name="list">
+                    <option value="">Select college</option>
+                    <option value="law">Law</option>
+                    <option value="medicine">Medicine</option>
+                    <option value="architecture">Architecture</option>
+                </select>
+            </p>
+            <p>
+                <input type="submit" name="sub" id="sub">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

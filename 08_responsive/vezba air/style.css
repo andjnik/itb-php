@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;;
+}
+
+header {
+    position:fixed;
+    top:0;
+    width:100%;
+    height:50px;
+    background-color: #112E52;
+    margin-bottom: 20px;
+}
+
+header img {
+    height: 50px;
+    float:left;
+    padding-left: 10px;
+}
+
+
+p {
+    display: inline-block;
+    padding: 5px 0 0 20px;
+}
+
+header ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+header ul li {
+float:left;
+width:25%;
+text-align: center;
+background-color: #112E52;
+}
+
+header ul li a {
+    display:block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+    border: solid 1px whitesmoke;
+    
+}
+
+.fscr ul li {
+    width:100%;
+    border:hidden 1px whitesmoke;
+        text-align: left;
+        background-color: #112E52;
+        }
+
+.fscr ul li a {
+        display:block;
+        color: white;
+        text-decoration: none;
+        padding-left:25px;
+            } 
+
+
+header ul li a:hover {
+    background-color: white;
+    color:#112E52;
+    font-weight: 800;
+}
+
+
+.desktop {
+    display:none;
+}
+
+.mobile {
+    display:block;
+}
+
+.jedan {
+    width:100%;
+        /* background-color: azure; */
+        /* border:solid 3px black; */
+        margin-top: 225px; 
+       
+    }
+
+
+.row {
+    width:100%;
+    overflow: hidden;
+}
+
+[class*="col-"] {
+    float:left;
+}
+
+[class*="col-"] {
+    width:100%;
+}
+
+.dropdown {
+    display: none;
+}
+
+header ul li:nth-child(2):hover .dropdown {
+    display: block;
+}
+
+header ul li:nth-child(3):hover .dropdown {
+    display: block;
+}
+
+@media only screen and (min-width:1000px) {
+
+
+    .proba {
+        /* width:100%; */
+        background-color: azure;
+        /* border:solid 3px black; */
+        margin-top: 75px; 
+    }
+    
+    .desktop {
+        display:block;
+    }
+
+    .mobile {
+        display:none;
+    }
+
+.col-1 {
+    width:calc(100%/12);
+}
+
+.col-2 {
+    width:calc(100%/12*2);
+
+}
+
+.col-3 {
+    width:calc(100%/12*3);
+}
+
+.col-4 {
+    width:calc(100%/12*4);
+}
+
+.col-5 {
+    width:calc(100%/12*5);
+}
+
+.col-6 {
+    width:calc(100%/12*6);
+}
+
+.col-7 {
+    width:calc(100%/12*7);
+}
+
+.col-8 {
+    width:calc(100%/12*8);
+}
+
+.col-9 {
+    width:calc(100%/12*9);
+}
+
+.col-10 {
+    width:calc(100%/12*10);
+}
+
+.col-11 {
+    width:calc(100%/12*11);
+}
+
+.col-12 {
+    width:(100%/12*1);
+}
+}
