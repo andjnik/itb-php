@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    overflow: hidden;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+
+[class*="col-"] {
+    width: 100%;
+}
+
+div {
+    width: 300px;
+    border-style: dashed;
+ 
+}
+
+div h1 {
+    float: left;
+    height: 150px;
+}
+
+img {
+    border-radius: 100%;
+    border-color: red;
+    border-style: dashed;
+}
+
+h6 {
+    color: blue;
+    font-size: 35px;
+}

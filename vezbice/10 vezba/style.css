@@ -1,0 +1,25 @@
+nav {
+    background-color: #6C3082;
+    width: 100%;
+    height: 50px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
