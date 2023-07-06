@@ -24,5 +24,15 @@
     "No." : "R.br.",
     "Information" : "Informacije",
     "Rating" : "Ocena",
-    "Running time" : "Vreme trajanja" 
+    "Running time" : "Vreme trajanja",
+    "Dashboard" : "Kontrolna tabla",
+    "Members" : "Clanovi",
+    "Name" : "Ime",
+    "Surname" : "Prezime",
+    "Birthday" : "Datum rodjenja",
+    "Action" : "Akcija",
+    "People" : "Clanovi",
+    "Person" : "clana",
+    "Birth date" : "Datum rodjenja"
+
 }

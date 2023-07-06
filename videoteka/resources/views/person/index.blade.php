@@ -13,11 +13,11 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th>ID</th>
-                                <th>Name</th>
-                                <th>Surname</th>
-                                <th>Birthday</th>
-                                <th>Action</th>
+                            <th>{{ __('ID') }}</th>
+                            <th>{{ __('Name') }}</th>
+                            <th>{{ __('Surname') }}</th>
+                            <th>{{ __('Birthday') }}</th>
+                            <th>{{ __('Action') }}</th>
                             </tr>
                         </thead>
                         <tbody>
