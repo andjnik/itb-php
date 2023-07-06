@@ -1,0 +1,159 @@
+/* Responsive */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;   
+}
+
+.row {
+    overflow: hidden;
+    width: 100%;
+}
+
+
+[class *="col-"]{
+    float:left;  
+}
+
+/* mobilni */
+
+@media only screen and (max-width: 600px){
+    
+    [class*="col-"] {
+        width: 100%;    
+    }
+
+    nav ul {
+        font-size: 10px;
+    }
+}
+
+/* laptop */
+@media only screen and (min-width: 951px){
+  
+    .col-1{
+        width: calc(100%/12);
+    }
+    .col-2{
+        width: calc(100%/12*2);
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4{
+        width: calc(100%/12*4);
+    }
+    .col-5{
+        width: calc(100%/12*5);
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: calc(100%/12*7);
+    }
+    .col-8{
+        width: calc(100%/12*8);
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: calc(100%/12*10);
+    }
+    .col-11{
+        width: calc(100%/12*11);
+    }
+    .col-12{
+        width: 100%;
+    }
+}
+
+header {
+    width: 100%;
+    background-color: purple;
+    color: white;
+    text-align: center;
+
+}
+
+img {
+    width: 20%;
+    height: 200px;
+    padding: 5px;
+
+}
+
+img:hover {
+    opacity: .70%;
+}
+
+nav ul {
+   list-style-type: none;
+   background-color: lightblue;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    background-color: purple;
+}
+
+.dropdown:hover {
+    background-color: lightpink;
+}
+
+.padajuci li:nth-child(3):hover .dropdown {
+    display: block;
+}
+
+p {
+    padding: 10px;
+}
+
+footer {
+    background-color: purple;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+input[type=submit] {
+    background-color: lightblue;
+    width: 20%;
+    float: right;
+    margin-right: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: pink;
+}
+
+h2 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    border-radius: 15%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+form {
+    padding-left: 30px;
+}
+
+label {
+    padding-left: 20%;
+}

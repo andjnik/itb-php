@@ -1,0 +1,116 @@
+/* responsive */
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;   
+}
+
+.row {
+    overflow: hidden;
+    width: 100%;
+}
+
+
+[class *="col-"]{
+    float:left;  
+}
+
+/* mobilni */
+
+@media only screen and (max-width: 700x){
+
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+
+/* laptop */
+@media only screen and (min-width: 1000px){
+  
+    .col-1{
+        width: calc(100%/12);
+    }
+    .col-2{
+        width: calc(100%/12*2);
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4{
+        width: calc(100%/12*4);
+    }
+    .col-5{
+        width: calc(100%/12*5);
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: calc(100%/12*7);
+    }
+    .col-8{
+        width: calc(100%/12*8);
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: calc(100%/12*10);
+    }
+    .col-11{
+        width: calc(100%/12*11);
+    }
+    .col-12{
+        width: 100%;
+    }
+}
+/* kraj responsive */
+
+header, footer {
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    background-color: darkturquoise;
+}
+
+nav ul li {
+    border-bottom: aqua 1px solid;
+}
+
+nav ul li a{
+    
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    color: black;
+}
+
+.naslov {
+    padding: 15px;
+    font-size: 20px;
+    background-image: linear-gradient(darkturquoise, white);
+   
+}
+
+img {
+    width: 100%;
+    height: 500px;
+}
+
+article {
+    margin-top: 5px;
+    padding-left: 10px;
+    background-image:  linear-gradient(darkturquoise, white);
+    font-size: 20px;
+    
+}
+
+article h4{
+    margin: 0px;
+    padding-top: 10px;
+   
+}

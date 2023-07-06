@@ -1,0 +1,47 @@
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+table {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#home {
+    width: 3vh;
+    height: 3vh;
+}
+
+#profile-photo {
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+}
+
+nav {
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    /* Important je neophodan jer se justify-content overwriteuje u klasi navbar-expand-lg */
+    justify-content: space-between !important;
+}
+
+#profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 35%;
+}
+
+#edit-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
