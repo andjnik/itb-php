@@ -33,6 +33,8 @@
     "Action" : "Akcija",
     "People" : "Clanovi",
     "Person" : "clana",
-    "Birth date" : "Datum rodjenja"
+    "Birth date" : "Datum rodjenja",
+    "New" : "Novi",
+    "member" : "korisnik"
 
 }
